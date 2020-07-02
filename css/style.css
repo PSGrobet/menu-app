@@ -6,12 +6,13 @@ body {
   font-size: 2em;
   line-height: 1.2em;
   font-family: 'Nanum Gothic', sans-serif;
-  background-image: url("../imagenes/cafe.jpg");
+  background-image: url("../imagenes/cafe-gde.jpg");
   background-size: 100vw;
   background-position: center;
   background-repeat: no-repeat; }
   @media screen and (max-width: 480px) {
     body {
+      background-image: url("../imagenes/cafe.jpg");
       font-size: 1em;
       background-size: 100vh;
       text-align: center; } }
