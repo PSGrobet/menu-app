@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1 id="titulo">Calcula tu desayuno</h1>
+
+	<p id="intro">Buenos días. ¿Qué quieres desayunar?</p>
+	<select id="menu">
+		<option value="0">--menú--</option>
+		<option id="huevos" value="Huevos">Huevos $20</option>
+		<option id="fruta" value="Fruta">Fruta $15</option>
+		<option id="hotCakes" value="Hot Cakes">Hot Cakes $35</option>
+	</select>
+	<select id="propina">
+		<option value="0">--propina--</option>
+		<option id="p20" value="0.2">20%</option>
+		<option id="p15" value="0.15">15%</option>
+		<option id="p10" value="0.1">10%</option>
+	</select>
+	<button id="button">Hacer pedido</button>
+
+	<div id="tuPedido"></div>
+
+	<div id="menu-image-container">
+		<img id="menuImage">
+		<!-- <img src="imagenes/fruta.jpg"> -->
+	</div>
+
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
+
+<!--
+	** huevos - <span>Photo by <a href="https://unsplash.com/@miracleday?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Elena Mozhvilo</a> on <a href="/s/photos/eggs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+	** café - <span>Photo by <a href="https://unsplash.com/@richtervet?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rich Tervet</a> on <a href="/s/photos/caf%C3%A9?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+	** fruta - <span>Photo by <a href="https://unsplash.com/@brookelark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Brooke Lark</a> on <a href="/s/photos/fruit-plate?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+	** hot cakes - <span>Photo by <a href="https://unsplash.com/@lukepennystan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Luke Pennystan</a> on <a href="/s/photos/pancakes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+-->
